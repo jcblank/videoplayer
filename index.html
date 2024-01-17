@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Video</title>
+</head>
+<body>
+    <div class="container" onmouseenter="onOver()" onmouseleave="onLeave()">
+        <h1> Player de vídeo</h1>
+        <video id="video1" src="programador.mp4"></video>
+        <div class="controle">
+            
+            <p onclick="retroceder()"><<15</p>
+            <p onclick="avancar()">15>></p>
+            <p onclick="play()">Play</p>
+            <p onclick="stop()">Stop</p>
+            <p onclick="diminuir_vel()">-</p>
+            <p onclick="aumentar_vel()">+</p>        
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
